@@ -1,7 +1,3 @@
-# Wagtail News Template
-
-This project template is designed for creating [Wagtail](https://wagtail.org) builds quickly, intended for developers to bootstrap their Wagtail site development using `wagtail start --template=`. The template comes with pre-defined pages, blocks, functionalities, and fixtures to streamline the initial setup process.
-
 ## Getting Started
 
 1. **Check that you have an appropriate version of Python 3** You want to make sure that you have a [compatible version](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions) installed:
@@ -35,7 +31,13 @@ This project template is designed for creating [Wagtail](https://wagtail.org) bu
    pip install -r requirements.txt
    ```
 
-5. **Access the Site and Admin**: Once the server is running, you can view the site at `localhost:8000` and access the Wagtail admin interface at `localhost:8000/admin`. Log in with the default credentials provided by :
+5. **Run Server**: Run The Server while the environment is activated
+
+   ```bash
+   python manage.py runserver
+   ```
+
+6. **Access the Site and Admin**: Once the server is running, you can view the site at `localhost:8000` and access the Wagtail admin interface at `localhost:8000/admin`. Log in with the default credentials provided by :
 
     - Username: admin
     - Password: password
